@@ -12,3 +12,4 @@ Single-page site. Files:
 3. In the repository, open Settings, then Pages. Under Build and deployment choose "Deploy from a branch", branch `main`, folder `/ (root)`, and save.
 4. After a minute the site is live at `https://<your-username>.github.io/`.
 5. Add that link to LinkedIn: Featured section, and Contact info website field.
+
