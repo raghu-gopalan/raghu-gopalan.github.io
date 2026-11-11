@@ -1,15 +1,10 @@
 # Raghunandan Gopalan: GCC strategy and supply resilience
 
-Single-page site. Files:
+Two-page site with no build step. Files:
 
-- `index.html`: the page (no build step)
-- `assets/`: the two decks as PDFs
+- `index.html`: the introduction (landing page)
+- `work.html`: GCC strategy and supply resilience in detail
+- `assets/`: the two leadership briefings as PDFs
+- `.nojekyll`: tells GitHub Pages to publish the files as they are
 
-## Publish on GitHub Pages
-
-1. Create a new public repository on GitHub. For a clean address, name it `<your-username>.github.io`.
-2. Upload `index.html`, `README.md` and the `assets` folder to the repository root.
-3. In the repository, open Settings, then Pages. Under Build and deployment choose "Deploy from a branch", branch `main`, folder `/ (root)`, and save.
-4. After a minute the site is live at `https://<your-username>.github.io/`.
-5. Add that link to LinkedIn: Featured section, and Contact info website field.
-
+Published with GitHub Pages from the `main` branch at https://raghu-gopalan.github.io/

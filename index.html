@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Raghunandan Gopalan | GCC Strategy and Supply Resilience</title>
-<meta name="description" content="Strategist and builder. Advising leadership teams on GCC strategy and set-up, and on supply resilience before disruption tests it.">
+<meta name="description" content="Thirty years in engineering and technology delivery. Built Schneider Electric's India GCC and led the recovery of Process Automation deliveries.">
 <meta property="og:title" content="Raghunandan Gopalan | GCC Strategy and Supply Resilience">
 <meta property="og:description" content="Leaders bring me in when an operation has to be built, rebuilt or rescued, and has to hold.">
 <meta property="og:type" content="website">
@@ -23,7 +23,10 @@ html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{background:var(--paper);color:var(--body);font-family:'Source Serif 4',Georgia,serif;font-size:18px;line-height:1.65}
 h1,h2,h3,strong,dt,th,.btn,.kicker,.top,.small{font-family:'Archivo','Helvetica Neue',Arial,sans-serif}
 h1,h2,h3,strong,dt{color:var(--ink)}
-a{color:var(--accent)}
+a{color:var(--accent);text-underline-offset:3px}
+main a:not(.btn),footer a:not(.btn){text-decoration:underline}
+.areas a,.next a{text-decoration:none}
+.areas a .go{text-decoration:underline}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 28px}
 [id]{scroll-margin-top:84px}
@@ -38,11 +41,11 @@ a{color:var(--accent)}
 .top nav a.pill:hover{background:var(--ink);color:var(--paper)}
 
 .hero{background:var(--deep);color:var(--on-deep-muted)}
-.hero .wrap{padding-top:104px;padding-bottom:104px}
+.hero .wrap{padding-top:84px;padding-bottom:88px}
 .hero .role{font-family:'Archivo',sans-serif;font-weight:500;font-size:16px;color:var(--deep-accent);margin-bottom:22px}
-h1{color:var(--on-deep);font-weight:600;font-size:clamp(34px,5.4vw,66px);line-height:1.06;letter-spacing:-.025em;max-width:17em;text-wrap:balance}
+h1{color:var(--on-deep);font-weight:600;font-size:clamp(32px,4.2vw,48px);line-height:1.12;letter-spacing:-.02em;max-width:19em;text-wrap:balance}
 .hero .lead{color:var(--on-deep-muted);margin-top:30px}
-.lead{font-size:clamp(19px,1.9vw,22px);line-height:1.55;max-width:38em}
+.lead{font-size:clamp(18px,1.6vw,20px);line-height:1.6;max-width:40em}
 .cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
 .btn{display:inline-block;font-weight:600;font-size:15.5px;text-decoration:none;padding:13px 24px;border-radius:4px;border:1.5px solid transparent}
 .btn.primary{background:var(--accent);color:var(--on-accent)}
@@ -55,24 +58,24 @@ h1{color:var(--on-deep);font-weight:600;font-size:clamp(34px,5.4vw,66px);line-he
 section{padding:96px 0}
 .tint{background:var(--wash)}
 .kicker{font-weight:600;font-size:15px;color:var(--accent);margin-bottom:14px}
-h2{font-weight:600;font-size:clamp(28px,3.6vw,42px);line-height:1.12;letter-spacing:-.02em;max-width:20em;margin-bottom:22px;text-wrap:balance}
-h3{font-weight:600;font-size:21px;line-height:1.25;letter-spacing:-.01em}
+h2{font-weight:600;font-size:clamp(26px,3vw,34px);line-height:1.18;letter-spacing:-.015em;max-width:24em;margin-bottom:18px;text-wrap:balance}
+h3{font-weight:600;font-size:24px;line-height:1.25;letter-spacing:-.01em}
 
 .areas{display:grid;grid-template-columns:1fr 1fr;margin-top:56px;border-top:2px solid var(--ink)}
 .areas a{display:block;text-decoration:none;color:inherit;padding:32px 40px 34px 0;border-bottom:1px solid var(--rule)}
 .areas a+a{padding-left:40px;padding-right:0;border-left:1px solid var(--rule)}
-.areas h3{font-size:26px;margin-bottom:10px}
+.areas h3{font-size:24px;margin-bottom:10px}
 .areas a:hover h3{color:var(--accent)}
 .areas p{font-size:17px}
 .areas .result{margin-top:18px;font-family:'Archivo',sans-serif;font-weight:600;font-size:15px;color:var(--ink)}
 .areas .go{display:inline-block;margin-top:16px;font-family:'Archivo',sans-serif;font-weight:600;font-size:15px;color:var(--accent);text-decoration:underline;text-underline-offset:4px}
 
-.row{display:grid;grid-template-columns:230px minmax(0,1fr);gap:56px;margin-top:64px;padding-top:28px;border-top:1px solid var(--rule)}
+.row{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;margin-top:56px;padding-top:36px;border-top:1px solid var(--rule)}
 .row-head p{font-size:16px;line-height:1.45;color:var(--muted);margin-top:8px}
 .facts{display:grid;grid-template-columns:1fr 1fr;gap:34px 48px}
 .facts dt{font-weight:600;font-size:18px;margin-bottom:6px}
 .facts dd{font-size:17px}
-.steps{list-style:none;counter-reset:s}
+.steps{list-style:none;counter-reset:s;max-width:48em}
 .steps li{counter-increment:s;display:grid;grid-template-columns:44px minmax(0,1fr);gap:20px;padding-bottom:28px;position:relative}
 .steps li::before{content:counter(s);font-family:'Archivo',sans-serif;font-weight:600;font-size:16px;width:36px;height:36px;border:1.5px solid var(--accent);color:var(--accent);background:var(--paper);border-radius:50%;display:flex;align-items:center;justify-content:center;position:relative;z-index:1}
 .tint .steps li::before{background:var(--wash)}
@@ -82,7 +85,7 @@ h3{font-weight:600;font-size:21px;line-height:1.25;letter-spacing:-.01em}
 .steps p{font-size:17px}
 .principles{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px 48px}
 .principles li{border-left:2px solid var(--accent);padding-left:18px}
-.principles strong{display:block;font-size:17px;font-weight:600;margin-bottom:4px}
+.principles strong{display:block;font-size:18px;font-weight:600;margin-bottom:4px}
 .principles span{display:block;font-size:16.5px;line-height:1.55}
 .table-scroll{overflow-x:auto}
 .levers{width:100%;min-width:560px;border-collapse:collapse;font-size:16.5px;line-height:1.5}
@@ -90,22 +93,22 @@ h3{font-weight:600;font-size:21px;line-height:1.25;letter-spacing:-.01em}
 .levers thead th{font-size:14px;font-weight:600;color:var(--muted);border-bottom:1.5px solid var(--ink);padding-top:0}
 .levers td:first-child{font-family:'Archivo',sans-serif;font-weight:600;color:var(--ink);white-space:nowrap}
 .note{margin-top:64px;background:var(--wash);border-left:3px solid var(--accent);padding:28px 32px;border-radius:0 6px 6px 0}
-.note strong{display:block;font-size:19px;margin-bottom:6px}
+.note strong{display:block;font-size:18px;margin-bottom:6px}
 .note p{max-width:44em;font-size:17px}
-.callout{margin:72px 0 0;font-family:'Archivo',sans-serif;font-weight:500;font-size:clamp(24px,3vw,34px);line-height:1.25;letter-spacing:-.015em;color:var(--ink);max-width:24em;text-wrap:balance}
+.callout{margin:72px 0 0;font-family:'Archivo',sans-serif;font-weight:500;font-size:clamp(21px,2.2vw,26px);line-height:1.35;letter-spacing:-.01em;color:var(--ink);max-width:30em;border-left:3px solid var(--accent);padding-left:22px;text-wrap:balance}
 .panel{margin-top:72px;background:var(--deep);color:var(--on-deep-muted);border-radius:8px;padding:44px 48px 48px}
 .panel h3{color:var(--on-deep);font-size:24px;margin-bottom:26px}
 .help{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px 40px;margin-bottom:36px;padding-bottom:34px;border-bottom:1px solid var(--deep-rule)}
-.help strong{display:block;color:var(--on-deep);font-size:17px;font-weight:600;margin-bottom:6px}
+.help strong{display:block;color:var(--on-deep);font-size:18px;font-weight:600;margin-bottom:6px}
 .help span{display:block;font-size:16.5px;line-height:1.55}
 
-.split{display:grid;grid-template-columns:230px minmax(0,1fr);gap:56px}
-.split h2{font-size:clamp(26px,3vw,34px);margin:0}
+.split{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.split h2{margin:0}
 .split p{max-width:40em}.split p+p{margin-top:18px}
 
 footer{background:var(--deep);color:var(--on-deep-muted);padding:104px 0 56px}
 footer .kicker{color:var(--deep-accent)}
-footer h2{color:var(--on-deep);max-width:22em}
+footer h2{color:var(--on-deep);max-width:26em}
 footer .small{margin-top:88px;padding-top:24px;border-top:1px solid var(--deep-rule);font-size:14px}
 
 @media (max-width:860px){
@@ -123,79 +126,89 @@ footer .small{margin-top:88px;padding-top:24px;border-top:1px solid var(--deep-r
   .note{padding:24px 22px}
   footer{padding:72px 0 40px}
 }
+
+.top nav a[aria-current]{color:var(--ink);font-weight:600}
+.glance{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 40px;margin-top:56px;padding-top:32px;border-top:1px solid var(--deep-rule)}
+.glance dt{font-family:'Archivo',sans-serif;font-weight:600;font-size:clamp(22px,2.4vw,28px);line-height:1.1;letter-spacing:-.02em;color:var(--on-deep)}
+.glance dd{font-size:16px;line-height:1.45;margin-top:8px;color:var(--on-deep-muted)}
+.intro .row:first-child{margin-top:0;border-top:0;padding-top:0}
+.prose p{max-width:46em}.prose p+p{margin-top:18px}
+.career{list-style:none;margin-top:36px;max-width:52em}
+.career li{display:grid;grid-template-columns:130px minmax(0,1fr);gap:24px;padding:18px 0;border-top:1px solid var(--rule)}
+.career time{font-family:'Archivo',sans-serif;font-weight:600;font-size:15px;color:var(--muted);padding-top:3px}
+.career strong{display:block;font-size:18px;font-weight:600}
+.career span{display:block;font-size:17px}
+.creds{list-style:none;max-width:52em}.creds li{padding:14px 0;border-top:1px solid var(--rule);font-size:17px}.creds li:first-child{border-top:0;padding-top:0}
+.creds strong{font-weight:600}
+.next{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:8px}
+.next a{display:block;text-decoration:none;border:1px solid var(--rule);border-radius:6px;padding:26px 28px;background:var(--paper)}
+.next a:hover{border-color:var(--accent)}
+.next strong{display:block;font-size:18px;font-weight:600;margin-bottom:6px}
+.next span{display:block;color:var(--body);font-size:16.5px;line-height:1.5}
+@media (max-width:860px){.glance{grid-template-columns:1fr 1fr;margin-top:48px}.career li{grid-template-columns:1fr;gap:4px}.next{grid-template-columns:1fr}}
+.h3{margin:0}
+
+/* one type scale for both pages */
+body{font-size:17px}
+strong{font-weight:600}
+.facts dt,.steps strong,.principles strong,.flow strong,.help strong,.next strong,.note strong{font-size:18px;font-weight:600}
+.facts dd,.steps p,.note p,.split p,.prose p,.figure-note,.areas p{font-size:17px;line-height:1.65}
+.principles span,.help span,.flow span,.next span,.levers,.glance dd,.row-head p{font-size:16px;line-height:1.5}
+.kicker,.hero .role,.top,.btn,.areas .go,.areas .result{font-size:15px;line-height:1.5}
+.hero .role{font-weight:600}
 </style>
 </head>
 <body id="top">
 <header class="top"><div class="wrap">
-  <a class="name" href="#top">Raghunandan Gopalan</a>
-  <nav aria-label="Sections">
-    <a class="hide-s" href="#gcc">GCC strategy</a>
-    <a class="hide-s" href="#supply">Supply resilience</a>
-    <a class="hide-s" href="#perspective">Perspective</a>
+  <a class="name" href="index.html">Raghunandan Gopalan</a>
+  <nav aria-label="Pages">
+    <a class="hide-s" href="index.html" aria-current="page">About</a>
+    <a class="hide-s" href="work.html#gcc">GCC strategy</a>
+    <a class="hide-s" href="work.html#supply">Supply resilience</a>
     <a class="pill" href="#contact">Contact</a>
   </nav>
 </div></header>
-
 <main>
 <div class="hero"><div class="wrap">
-  <p class="role">Strategist and builder</p>
-  <h1>Brought in when an operation has to be built, rebuilt or rescued, and has to hold.</h1>
-  <p class="lead">I advise leadership teams in two areas: setting up and scaling a Global Capability Center, and making supply resilient before disruption tests it.</p>
+  <p class="role">About Raghunandan Gopalan</p>
+  <h1>Thirty years building and leading engineering operations across India, the US and Mexico.</h1>
+  <p class="lead">I built Schneider Electric's India Global Capability Center from business case to two centres, then led the recovery of Process Automation deliveries after the post-COVID component crisis. Based in Bengaluru.</p>
   <div class="cta">
     <a class="btn light" href="#contact">Start a conversation</a>
-    <a class="btn ghost" href="https://www.linkedin.com/in/raghug/" rel="noopener">LinkedIn profile</a>
+    <a class="btn ghost" href="work.html">See how the work was done</a>
   </div>
+  <dl class="glance">
+    <div><dt>30 years</dt><dd>in engineering and technology delivery</dd></div>
+    <div><dt>About 600</dt><dd>professionals across the two GCC centres</dd></div>
+    <div><dt>3 to 5</dt><dd>product lines served as the GCC's charter widened</dd></div>
+    <div><dt>60 to 70%</dt><dd>reduction in lead times through the supply recovery</dd></div>
+  </dl>
 </div></div>
-
-<section><div class="wrap">
-  <h2>Two problems I have taken from decision to result</h2>
-  <p class="lead">Each started as a high-stakes problem that no one clearly owned. In both, I defined the approach, built alignment at the top, and stayed with it until it held.</p>
-  <div class="areas">
-    <a href="#gcc"><h3>GCC strategy and build</h3>
-      <p>Whether, where and how to set up a Global Capability Center, whether starting fresh or moving out of a partner-run model, and how to scale it.</p>
-      <p class="result">Went live with zero disruption to live work.</p>
-      <span class="go">See the approach</span></a>
-    <a href="#supply"><h3>Supply resilience</h3>
-      <p>Protecting customer continuity when supply is constrained, and building the resilience in before a shortage forces the issue.</p>
-      <p class="result">Lead times fell by 60% or more across the major product families.</p>
-      <span class="go">See the approach</span></a>
-  </div>
-</div></section>
-
-<section class="area" id="gcc"><div class="wrap">
-<p class="kicker">GCC strategy and build</p><h2>When owning the capability becomes the strategic choice</h2><p class="lead">At Schneider Electric, an offshore engineering capability had outgrown a partner-run model. The business needed greater control, visibility and ownership. I defined the solution, structured it and delivered it, with the backing of the head of R&amp;D, the business-line SVP, the CFO and India leadership.</p>
-<div class="row"><div class="row-head"><h3>What the work covered</h3></div><div class="row-body"><dl class="facts"><div><dt>The strategic case</dt><dd>Control, visibility, a growth ceiling set by the partner, concentration risk, talent and identity, and geopolitical exposure. None is a failure of the partner. They are structural limits of the model once a business outgrows it.</dd></div><div><dt>The structural decisions</dt><dd>Where and how to set up, the commercial structure, the legal entity and its support functions, and how the change itself would be governed. Four calls made before any move.</dd></div><div><dt>Securing the mandate</dt><dd>The first set-up of its kind in the organisation, so the case answered real apprehensions. It rested on a multi-year growth roadmap, and was revalidated when circumstances changed.</dd></div><div><dt>Protecting the business</dt><dd>Business, physical and people risk managed together. Readiness gates, defined fall-backs and a phased move meant the transition went live with zero disruption to live work.</dd></div><div><dt>Making it last</dt><dd>Governance, talent and culture, and digital enablement built in from the start, so the centre could earn more work.</dd></div><div><dt>Scaling the mandate</dt><dd>Global teams gained confidence, demand outgrew the original case, and the charter widened into a product and innovation hub aligned with global R&amp;D priorities.</dd></div></dl></div></div>
-<div class="row"><div class="row-head"><h3>The approach</h3><p>From the question to a centre that earns more work</p></div><div class="row-body"><ol class="steps"><li><div><strong>Frame the question</strong><p>Establish whether the cost of staying in the current model, in control, visibility, optionality and talent, now exceeds the cost of owning the capability. Test it against the business roadmap, not today's workload.</p></div></li><li><div><strong>Build the case</strong><p>A multi-year view tied to the growth of the business, setting out the financial benefits, the risks and the effect on existing service agreements. Built so that it can be revalidated if circumstances change.</p></div></li><li><div><strong>Design the model</strong><p>Location and zone options weighed on benefits and trade-offs. The legal entity and its financial backbone. A commercial structure that leaves the partner relationship intact. Support functions and their leaders put in place early.</p></div></li><li><div><strong>Earn the mandate</strong><p>Map everyone who has to be convinced, from global business and finance leadership to regional functions, partner teams and local managers, and answer each concern directly rather than around it.</p></div></li><li><div><strong>De-risk the move</strong><p>Readiness gates, defined fall-backs and a phased transition. Live delivery, physical assets and people confidence protected together, because a failure in any one undoes the case.</p></div></li><li><div><strong>Institutionalise and scale</strong><p>Governance and audit readiness, a leadership pipeline, digital enablement, and processes that make working from the centre seamless, and visibly better, for global teams. Capacity for expansion planned from the start.</p></div></li></ol></div></div>
-<div class="row"><div class="row-head"><h3>What I hold to</h3></div><div class="row-body"><ul class="principles"><li><strong>Protect delivery first</strong><span>The economics follow when the transition leaves live work undisturbed.</span></li><li><strong>Leave the partner whole</strong><span>A clean, respectful structure keeps goodwill, and keeps the option of working with several partners.</span></li><li><strong>Treat identity as strategy</strong><span>A distinct workplace and employer identity is part of the case for attracting talent, not a by-product.</span></li><li><strong>Design for the upside</strong><span>A conservative plan for a first-of-its-kind move should still leave room to expand when demand outgrows it.</span></li></ul></div></div>
-<aside class="note"><strong>If you already run a partner-run centre</strong><p>Many organisations now operate offshore development centres that have outgrown their original model. I help leadership teams decide whether, and how, to bring that capability in-house without disrupting delivery, and how to build the centre so it earns more work over time.</p></aside>
-<blockquote class="callout">The shift gave the business more pride in its work, and more certainty about its future.</blockquote>
-<div class="panel"><h3>Where I can help</h3><ul class="help"><li><strong>Build-or-partner assessment</strong><span>Whether and how to own the capability, weighed against its cost and risk.</span></li><li><strong>Set-up and transition design</strong><span>Structure, location, entity, leadership and, where relevant, partner exit.</span></li><li><strong>Programme leadership</strong><span>Interim leadership through the transition, with executive alignment.</span></li></ul><a class="btn light" href="assets/Raghunandan-Gopalan-GCC-Strategy.pdf">Download the GCC strategy deck (PDF)</a></div>
-</div></section>
-
-<section class="area tint" id="supply"><div class="wrap">
-<p class="kicker">Supply resilience</p><h2>Protecting continuity when supply is constrained</h2><p class="lead">When the global component shortage threatened Process Automation deliveries, I was asked to help steer the response. The mandate was to protect customer continuity while balancing cost discipline against supply risk across the enterprise.</p>
-<div class="row"><div class="row-head"><h3>What the work covered</h3></div><div class="row-body"><dl class="facts"><div><dt>A criticality lens</dt><dd>Which product lines, products and components could stop shipments. Each decision anchored to the product roadmap, with continuity weighed alongside cost.</dd></div><div><dt>A portfolio of levers</dt><dd>Alternates, buffer stock, dual sourcing, premium purchases and roadmap timing, each matched to the risk it removes. No single fix did it. The levers worked together.</dd></div><div><dt>Explicit trade-offs</dt><dd>Cost against continuity, supplier relationships and customer priority, each with an owner, a business case and an approval.</dd></div><div><dt>Aligning the enterprise</dt><dd>Finance, procurement, R&amp;D, production and sales brought into a single escalation forum, with a steady rhythm and decisions visible to everyone.</dd></div><div><dt>A recovery, honestly read</dt><dd>Lead times fell by 60% or more across the major product families, and customer confidence returned. The final stretch was paced deliberately, balancing lead time against inventory cost.</dd></div></dl></div></div>
-<div class="row"><div class="row-head"><h3>The approach</h3><p>From a constrained chain to a controlled one</p></div><div class="row-body"><ol class="steps"><li><div><strong>Own the outcome</strong><p>One accountable view of the chain, from demand projection to the delivery date committed to the customer, with a management mandate over prioritisation and commitments.</p></div></li><li><div><strong>Find what matters</strong><p>Rank product lines, then products, then components, and place the components on a grid by supply conditions, degree of customisation and availability of alternates. Effort goes to what can stop shipments.</p></div></li><li><div><strong>Match the lever to the risk</strong><p>Alternates, buffer, dual sourcing, premium purchases and roadmap timing, each applied where it removes a specific risk, and run in parallel.</p></div></li><li><div><strong>Align the enterprise</strong><p>A weekly forum of senior leaders from finance, procurement, engineering, production and sales, and a weekly report everyone relies on. Demand projections and production plans challenged, not just accepted.</p></div></li><li><div><strong>Govern the trade-offs</strong><p>Every call on cost, supplier and customer priority made explicit, with an owner, a business case and an approval. Clear, communicated delivery dates for customers.</p></div></li><li><div><strong>Recover, then stabilise</strong><p>Pace the final stretch deliberately, balancing lead time against inventory cost, and use what was learned to retire the exposure for good.</p></div></li></ol></div></div>
-<div class="row"><div class="row-head"><h3>The portfolio of levers</h3></div><div class="row-body"><div class="table-scroll"><table class="levers">
-        <thead><tr><th scope="col">Lever</th><th scope="col">Risk it removes</th><th scope="col">How it is applied</th></tr></thead><tbody>
-        <tr><td>Alternates</td><td>Long or uncertain lead times</td><td>Qualified with engineering, written into the bill of materials, purchasing begins on availability.</td></tr>
-        <tr><td>Buffer stock</td><td>Components with no alternate</td><td>Sized on cost, market availability, quality and business impact.</td></tr>
-        <tr><td>Dual sourcing</td><td>Single-source exposure</td><td>Supplier identified, samples tested by engineering, cost and reliability reviewed.</td></tr>
-        <tr><td>Premium purchases</td><td>Parts outside normal channels</td><td>Recommended from a criticality view with the business impact set out, and approved by finance.</td></tr>
-        <tr><td>Product roadmap</td><td>End-of-life and paired products</td><td>Replacement timing used to plan supply, and products that ship as a unit planned together.</td></tr>
-      </tbody></table></div></div></div>
-<div class="row"><div class="row-head"><h3>The operating rhythm</h3></div><div class="row-body"><ul class="principles"><li><strong>A weekly forum</strong><span>Senior leaders from every function in one room, so decisions are fast, informed and shared.</span></li><li><strong>A weekly report</strong><span>Status, new challenges, items resolved and pending, impacted orders, and a rolling action list.</span></li><li><strong>Challenge, not acceptance</strong><span>Demand projections, production plans, buffer and obsolescence reviewed every cycle.</span></li></ul></div></div>
-<div class="row"><div class="row-head"><h3>What I hold to</h3></div><div class="row-body"><ul class="principles"><li><strong>Authority through mandate</strong><span>Results came from a shared view of the risk, a steady cadence and visible decisions, with no reporting line over the functions involved.</span></li><li><strong>Stay close to the plant</strong><span>Proximity to production and to suppliers keeps the picture honest.</span></li><li><strong>A premium is a decision</strong><span>Paying for certainty needs a business case, not a reflex.</span></li><li><strong>No single fix</strong><span>The recovery came from the levers working together, coordinated across the whole chain.</span></li></ul></div></div>
-<blockquote class="callout">Leaders can give continuity an owner, invest in visibility early, and pay for certainty deliberately.</blockquote>
-<div class="panel"><h3>Where I can help</h3><ul class="help"><li><strong>Supply criticality assessment</strong><span>Which products and components can stop revenue, and what to do about each.</span></li><li><strong>Shortage-recovery governance</strong><span>A cross-functional forum, a reporting rhythm and clear decision rights.</span></li><li><strong>Resilience design</strong><span>Alternates, buffer and dual sourcing, tied to the product roadmap.</span></li></ul><a class="btn light" href="assets/Raghunandan-Gopalan-Supply-Resilience.pdf">Download the supply resilience deck (PDF)</a></div>
-</div></section>
-
-<section id="perspective"><div class="wrap split">
-  <h2>Both sides of the table</h2>
-  <div><p>Three decades across engineering, R&amp;D, PLM and supply chain. On the services side, I carried client relationships and P&amp;L accountability for global automotive and engineering organisations. As a leader within a global product company, I was the client.</p><p>That dual vantage point shapes how I advise: I understand what an enterprise should expect of its partners, and what it takes for a partner to deliver.</p></div>
+<section class="intro"><div class="wrap">
+<div class="row"><div class="row-head"><h2 class="h3">Experience</h2></div><div class="row-body"><div class="prose">
+<p>Thirty years in engineering and technology delivery, across R&amp;D, product lifecycle management, global delivery and supply chain. The career began in R&amp;D at Robert Bosch, working alongside plant procurement, plant engineering, quality and shop-floor teams to solve daily production problems from a design perspective. Engineering and delivery roles at Siemens, Mahindra Satyam and Philips followed, all within global delivery models.</p>
+<p>At Geometric, as Client Partner, came P&amp;L ownership for a portfolio of about USD 10M across global automotive and engineering clients, covering revenue, cost, margin and executive commercial reviews, with a team of about 200. A later role at PROLIM Solutions covered the client relationship and delivery for an enterprise PLM programme delivered globally. That was the services side of the table.</p>
+<p>At Schneider Electric, I was the client. As Director of the India GCC from 2017 to 2024, I built the case for moving a business line's India work out of a partner-run offshore development centre, in place since 2009, and into a Global Capability Center of Schneider's own. The case was approved by the business line's SVP and CFO and by the India CEO and CFO. The build that followed covered the location and structure decisions, the first SEZ entity in Schneider India, its support functions, the partner agreements and a purpose-built site.</p>
+<p>The centre went live in December 2020, in the middle of COVID, and grew faster than planned as global teams gained confidence in it. A site in Germany was consolidated into Hyderabad in 2021, and a second centre opened in 2023. The role reported to the US business-group VP and was the senior link between global headquarters and India. It carried accountability for the centre's operations and project governance, and for representing the entity with government agencies, auditors and clients.</p>
+<p>From 2021 the role also carried supply and delivery accountability for Process Automation, whose products are made mainly at the Mexico factory and shipped to customers in every region. That work began alongside the GCC role, when the post-COVID component shortage pushed lead times sharply up, and became full time with a move to Boston in 2024 as Director, Supply Quality and Logistics. It meant aligning R&amp;D, procurement, manufacturing, quality and sales around one view of what was critical, and acting as the single point of contact for delivery escalations across more than 20 suppliers and 20 customers.</p>
+</div></div></div><div class="row"><div class="row-head"><h2 class="h3">Expertise</h2></div><div class="row-body"><dl class="facts">
+<div><dt>GCC strategy and growth</dt><dd>Set-up and scale-up, business cases, charter and scope expansion, global operating models, and the executive alignment that carries them.</dd></div>
+<div><dt>Industrial and supply chain interface</dt><dd>Supply-demand integration (SIOP), procurement and manufacturing alignment, critical-component risk, dual sourcing and quality management.</dd></div>
+<div><dt>Commercial and financial governance</dt><dd>Budget and cost governance, SEZ and STPI tax-benefit optimisation, vendor and partner management, insourcing and multi-partner sourcing strategy.</dd></div>
+<div><dt>Leadership and governance</dt><dd>Leading through influence across functions, developing managers, statutory and regulatory representation, business continuity and audit readiness.</dd></div>
+</dl></div></div><div class="row"><div class="row-head"><h2 class="h3">Achievements</h2><p>At Schneider Electric, 2017 to 2025</p></div><div class="row-body"><dl class="facts">
+<div><dt>A zero-disruption move to an owned GCC</dt><dd>Relocated about 200 people and a hardware lab of about 40,000 items into a purpose-built site during COVID. It went live in December 2020 with zero disruption to live work.</dd></div>
+<div><dt>Growth well beyond the plan</dt><dd>The centre grew from about 250 to about 600 professionals and from 3 to 5 product lines. Headcount doubled in about 2.5 years against a plan of 5% a year, leading to a second centre in 2023.</dd></div>
+<div><dt>Savings beyond the business case</dt><dd>Accountable for savings of about 10% of the annual operating budget, over and above what the approved business case planned, from SEZ tax benefits and lower partner rates after insourcing. Set up the first SEZ entity in Schneider India.</dd></div>
+<div><dt>A delivery recovery customers felt</dt><dd>After the post-COVID component crisis, lead times fell by around 60 to 70% from their peaks, and on-time delivery rose from under 50% to over 70%.</dd></div>
+<div><dt>From execution capacity to roadmap contributor</dt><dd>The GCC moved on to new technologies and global product roadmaps, work the partner model had not allowed. Global teams rated projects above 4.5 out of 5 at close.</dd></div>
+<div><dt>Retention through rapid growth</dt><dd>Employee attrition stayed at around 8 to 10% a year while the centre grew 2.4 times.</dd></div>
+</dl></div></div><div class="row"><div class="row-head"><h2 class="h3">How the work was done</h2></div><div class="row-body"><div class="next">
+<a href="work.html#gcc"><strong>GCC strategy and build</strong><span>The case, the structural decisions and the approach, step by step.</span></a>
+<a href="work.html#supply"><strong>Supply resilience</strong><span>The criticality lens, the levers and the operating rhythm.</span></a>
+</div></div></div>
 </div></section>
 </main>
-
 <footer id="contact"><div class="wrap">
   <p class="kicker">Contact</p>
   <h2>If you are weighing a GCC decision, or want supply resilience secured before the next disruption, I would welcome the conversation.</h2>
