@@ -175,11 +175,12 @@ strong{font-weight:600}
 }
 
 .expertise-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
-.x-card{background:var(--paper);padding:30px 28px}
-.x-icon{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--wash);color:var(--accent);margin-bottom:18px}
-.x-icon svg{width:22px;height:22px}
-.x-card h3{font-size:18px;font-weight:600;margin-bottom:8px}
-.x-card p{font-size:16px;line-height:1.55;color:var(--body)}
+.x-card{background:var(--paper);padding:36px 32px;transition:background .2s ease}
+.x-card:hover{background:var(--wash)}
+.x-icon{display:flex;align-items:center;justify-content:center;width:72px;height:72px;border-radius:50%;background:var(--accent);color:var(--on-accent);margin-bottom:24px}
+.x-icon svg{width:34px;height:34px}
+.x-card h3{font-size:19px;font-weight:600;margin-bottom:10px}
+.x-card p{font-size:16px;line-height:1.6;color:var(--body)}
 
 .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:4px}
 .stats .stat{background:var(--paper);padding:30px 26px}
@@ -210,12 +211,10 @@ strong{font-weight:600}
 </div></header>
 <main>
 <div class="hero"><div class="wrap">
-  <p class="role">About Raghunandan Gopalan</p>
   <h1>Thirty years building and leading engineering operations across India, the US and Mexico.</h1>
-  <p class="lead">I built Schneider Electric's India Global Capability Center from business case to two centres, then led the recovery of Process Automation deliveries after the post-COVID component crisis. Based in Bengaluru.</p>
+  <p class="lead">Built the business case for Schneider Electric's India Global Capability Center and led it from a single site to two, then took on global supply accountability and steered Process Automation's delivery recovery through the post-COVID component crisis.</p>
   <div class="cta">
-    <a class="btn light" href="#contact">Start a conversation</a>
-    <a class="btn ghost" href="#work">See how the work was done</a>
+    <a class="btn light" href="#work">See how the work was done</a>
   </div>
   <dl class="glance">
     <div><dt>30 years</dt><dd>in engineering and technology delivery</dd></div>
@@ -241,8 +240,8 @@ strong{font-weight:600}
 <div class="stat"><p class="num">2.4&times;</p><p class="label">Growth beyond plan</p><p class="cap">About 250 to about 600 professionals, 3 to 5 product lines. Headcount doubled in 2.5 years against a 5%-a-year plan, leading to a second centre in 2023.</p></div>
 <div class="stat"><p class="num">~10%</p><p class="label">Savings beyond the case</p><p class="cap">Of the annual operating budget, from SEZ tax benefits and lower partner rates after insourcing. Set up Schneider India's first SEZ entity.</p></div>
 <div class="stat"><p class="num">60&ndash;70%</p><p class="label">Faster delivery</p><p class="cap">Lead times down from their peaks after the component crisis. On-time delivery up from under 50% to over 70%.</p></div>
-<div class="stat"><p class="num">4.5+/5</p><p class="label">Roadmap contributor</p><p class="cap">Global teams' rating as the GCC moved onto new technologies and global product roadmaps, work the partner model had not allowed.</p></div>
-<div class="stat"><p class="num">8&ndash;10%</p><p class="label">Attrition through growth</p><p class="cap">Held steady each year while the centre grew 2.4 times.</p></div>
+<div class="stat" style="text-align:center"><p class="num">&gt;90%</p><p class="label">Overall project rating</p><p class="cap">Consistently high ratings from global stakeholders as the GCC moved onto new technologies and global product roadmaps.</p></div>
+<div class="stat"><p class="num">100%</p><p class="label">Statutory compliance</p><p class="cap">Served as the GCC's authorized signatory, ensuring zero non-compliances across all statutory audits and local government reporting, and defined the processes required to operate from an SEZ.</p></div>
 </div></div></div><div class="row" id="work"><div class="row-head"><h2 class="h3">How the work was done</h2></div><div class="row-body"><div class="next">
 <a href="gcc.html"><strong>GCC strategy and build</strong><span>The case, the structural decisions and the approach, step by step.</span></a>
 <a href="supply.html"><strong>Supply resilience</strong><span>The criticality lens, the levers and the operating rhythm.</span></a>
